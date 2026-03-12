@@ -42,4 +42,4 @@ Este projeto utiliza módulos nativos do JavaScript (ESM), por isso precisa de u
 │   └── imgs/            # Ativos de imagem e icones
 ├── index.html           # Página principal
 ├── main.js              # Ponto de entrada que registra todos os componentes
-└── README.md
+└── README.md            # Documentação

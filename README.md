@@ -24,7 +24,7 @@ Este projeto utiliza módulos nativos do JavaScript (ESM), por isso precisa de u
 
 *   **Web Components (Custom Elements):** Optei por utilizar a API nativa de Web Components para encapsular a lógica e o estilo de cada elemento (Header, Cards, Atividades, FAQ). Isso garante um código modular e fácil de manter, simulando o comportamento de frameworks modernos sem ferir o requisito de usar JS Vanilla.
 *   **Shadow DOM:** Utilizado para garantir o encapsulamento do CSS, evitando que estilos globais interfiram nos componentes e vice-versa.
-*   **Barrel Export Pattern:** Centralizei o registro de todos os componentes no arquivo `components/main.js`, simplificando o carregamento no HTML e melhorando a organização do projeto.
+*   **Barrel Export Pattern:** Centralizei o registro de todos os componentes no arquivo `main.js`, simplificando o carregamento no HTML e melhorando a organização do projeto.
 *   **Persistência com SessionStorage:** Implementada lógica para salvar e recuperar o estado das atividades (objetiva e discursiva). O sistema restaura textos, opções selecionadas, feedbacks visíveis e o estado de habilitação dos botões após o refresh da página.
 *   **HTML Semântico & Acessibilidade:** Uso de tags como `<main>`, `<section>`, `<details>` e `<summary>` para o FAQ, garantindo acessibilidade nativa e melhor SEO.
 

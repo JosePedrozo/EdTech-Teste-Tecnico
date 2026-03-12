@@ -45,5 +45,5 @@ Este projeto utiliza módulos nativos do JavaScript (ESM), por isso precisa de u
 └── README.md            # Documentação
 ```
 Resultado:
-<img width="1280" height="1890" alt="printscreen_telainteira" src="https://github.com/user-attachments/assets/cbeace2c-2803-4538-9b29-6dc15d9b7a7b" />
+<img width="1080" height="1890" alt="printscreen_telainteira" src="https://github.com/user-attachments/assets/cbeace2c-2803-4538-9b29-6dc15d9b7a7b" />
 

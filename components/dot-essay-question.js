@@ -25,7 +25,7 @@ class DotEssayQuestion extends HTMLElement {
         }
 
         .container {
-          background: #fff;
+          background: var(--white-color);
           border: 1px solid #E5E7EB;
           border-radius: 12px;
           padding: 24px;
@@ -54,20 +54,20 @@ class DotEssayQuestion extends HTMLElement {
         .icon svg {
           width: 20px;
           height: 20px;
-          fill: #76B900;
+          fill: var(--highlight-color);
         }
 
         .info h2 {
           margin: 0;
           font-size: 1.1rem;
-          color: #111827;
+          color: var(--quaternary-color);
           font-weight: 700;
         }
 
         .info p {
           margin: 8px 0 0;
           font-size: 1rem;
-          color: #4B5563;
+          color: var(--secundary-color);
           line-height: 1.5;
         }
 
@@ -75,24 +75,24 @@ class DotEssayQuestion extends HTMLElement {
           width: 100%;
           min-height: 160px;
           padding: 16px;
-          border: 1px solid #D1D5DB;
+          border: 1px solid #E2E8F0;
           border-radius: 8px;
           font-family: inherit;
           font-size: 0.95rem;
           resize: vertical;
           box-sizing: border-box;
           margin-bottom: 24px;
-          color: #374151;
+          color: var(--quaternary-color);
           transition: border-color 0.2s;
         }
 
         textarea:focus {
           outline: none;
-          border-color: #76B900;
+          border-color: var(--highlight-color);
         }
 
         textarea:disabled {
-          background-color: #F9FAFB;
+          background-color: var(--disabled-color);
           cursor: not-allowed;
         }
 
@@ -113,35 +113,35 @@ class DotEssayQuestion extends HTMLElement {
         }
 
         .btn-respond {
-          background: #F3F4F6;
-          color: #9CA3AF;
+          background: var(--background-dark);
+          color: var(--white-color);
         }
 
         .btn-respond.ready {
-          background: #76B900;
-          color: #fff;
+          background: var(--highlight-color);
+          color: var(--white-color);
         }
 
         .btn-respond:disabled {
-          background: #F3F4F6;
-          color: #9CA3AF;
+          background: var(--disabled-color);
+          color: var(--grey-color);
           cursor: not-allowed;
         }
 
         .btn-edit {
-          background: #000;
-          color: #fff;
+          background: var(--background-dark);
+          color: var(--white-color);
         }
 
         .btn-edit:disabled {
-          background: #E5E7EB;
-          color: #9CA3AF;
+          background: var(--disabled-color);
+          color: var(--grey-color);
           cursor: not-allowed;
         }
 
         .feedback-box {
           margin-top: 24px;
-          background: #ECF7ED;
+          background: var(--feedback-correct-background);
           border-radius: 8px;
           padding: 20px;
           display: none; 
@@ -154,14 +154,14 @@ class DotEssayQuestion extends HTMLElement {
 
         .feedback-box h3 {
           margin: 0;
-          color: #065F46;
+          color: var(--dark-green-900);
           font-size: 1rem;
           font-weight: 700;
         }
 
         .feedback-box p {
           margin: 8px 0 0;
-          color: #065F46;
+          color: var(--light-green-400);
           font-size: 0.95rem;
           line-height: 1.6;
         }
@@ -170,7 +170,7 @@ class DotEssayQuestion extends HTMLElement {
           position: absolute;
           top: 12px;
           right: 12px;
-          color: #065F46;
+          color: var(--light-green-400);
           cursor: pointer;
           font-size: 1.2rem;
         }

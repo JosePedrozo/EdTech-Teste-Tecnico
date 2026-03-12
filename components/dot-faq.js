@@ -33,12 +33,12 @@ class DotFaq extends HTMLElement {
 
         .intro h2 {
           font-size: 2rem;
-          color: #111827;
+          color: var(--background-dark);
           margin: 0 0 12px;
         }
 
         .intro p {
-          color: #6B7280;
+          color: var(--grey-color);
           font-size: 1rem;
         }
 
@@ -49,7 +49,7 @@ class DotFaq extends HTMLElement {
         }
 
         details {
-          background: #F9FAFB;
+          background: var(--light-grey-color);
           border-radius: 12px;
           overflow: hidden;
           transition: all 0.3s ease;
@@ -57,8 +57,8 @@ class DotFaq extends HTMLElement {
         }
 
         details[open] {
-          background: #76B900;
-          border-color: #76B900;
+          background: var(--highlight-color);
+          border-color: var(--highlight-color);
         }
 
         summary {
@@ -69,26 +69,24 @@ class DotFaq extends HTMLElement {
           justify-content: space-between;
           align-items: center;
           font-weight: 700;
-          color: #111827;
+          color: var(--background-dark);
           transition: color 0.3s;
         }
 
-        /* Remove a seta padrão do Chrome/Safari */
         summary::-webkit-details-marker {
           display: none;
         }
 
         details[open] summary {
-          color: #FFFFFF;
+          color: var(--white-color);
         }
 
-        /* Ícone da Seta */
         summary::after {
           content: '';
           width: 12px;
           height: 12px;
-          border-right: 2px solid #76B900;
-          border-bottom: 2px solid #76B900;
+          border-right: 2px solid  var(--highlight-color);
+          border-bottom: 2px solid  var(--highlight-color);
           transform: rotate(45deg);
           transition: transform 0.3s, border-color 0.3s;
           margin-right: 8px;
@@ -96,12 +94,12 @@ class DotFaq extends HTMLElement {
 
         details[open] summary::after {
           transform: rotate(-135deg);
-          border-color: #FFFFFF;
+          border-color: var(--white-color);
         }
 
         .content {
           padding: 0 24px 24px;
-          color: #4B5563;
+          color: var(--grey-color);
           line-height: 1.6;
           font-size: 0.95rem;
           border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -109,7 +107,7 @@ class DotFaq extends HTMLElement {
         }
 
         details[open] .content {
-          color: #FFFFFF;
+          color: var(--white-color);
         }
 
         @media (max-width: 640px) {

@@ -10,8 +10,21 @@
     --terciary-color: #D1D5DB;
     --quaternary-color: #0F172A;
 
+    --black-color: #0C0A08;
     --white-color: #FFFFFF;
     --grey-color:   #9CA3AF;
+    --light-blue-color: #334155;
+    --light-yellow-color: #FFF9C4;
+    --dark-green-900: #14532D;
+    --light-green-400: #166534;
+    --dark-yellow-900: #713F12;
+    --grey-color: #525252;
+    --light-grey-color: #F5F5F5;
+
+    --disabled-color: #F3F4F6;
+
+    --feedback-correct-background:  #E8F5E9;
+    --feedback-incorrect-background: #FFF9C4;
 
     --highlight-color: #76B900;
     

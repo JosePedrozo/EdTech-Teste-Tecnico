@@ -25,11 +25,11 @@ class DotAudioPlayer extends HTMLElement {
         align-items: center;
         gap: 12px;
         width: 100%;
-        background: #F9FAFB;
+        background: var(--white-color);
         border-radius: 12px;
         padding: 12px 16px;
         border: 1px solid #E5E7EB;
-        box-shadow: 0px 4px 6px -4px #0000001A;
+        box-shadow: 0px 1px 2px 0px #0000000D;
         box-sizing: border-box;
       }
 
@@ -50,15 +50,15 @@ class DotAudioPlayer extends HTMLElement {
       svg {
         width: 20px;
         height: 20px;
-        fill: #374151;
+        fill: var(--footer-color);
       }
 
-      button:hover svg { fill: #111827; }
+      button:hover svg { fill: var(--primary-color); }
 
       .progress-container {
         flex: 1;
         height: 6px;
-        background: #E5E7EB;
+        background: var(--terciary-color);
         border-radius: 999px;
         position: relative;
         cursor: pointer;
@@ -68,7 +68,7 @@ class DotAudioPlayer extends HTMLElement {
       .bar {
         height: 100%;
         width: 0%;
-        background: #76B900;
+        background: var(--highlight-color);
         border-radius: 999px;
         position: relative;
         pointer-events: none;
@@ -83,13 +83,13 @@ class DotAudioPlayer extends HTMLElement {
         height: 14px;
         border-radius: 50%;
         background: white;
-        border: 2px solid #76B900;
+        border: 2px solid var(--highlight-color);
         box-shadow: 0 1px 3px rgba(0,0,0,0.2);
       }
 
       .time {
         font-size: 0.75rem;
-        color: #6B7280;
+        color: var(--footer-color);
         white-space: nowrap;
         font-variant-numeric: tabular-nums;
       }
@@ -104,7 +104,7 @@ class DotAudioPlayer extends HTMLElement {
       input[type="range"] {
         width: 60px;
         cursor: pointer;
-        accent-color: #76B900;
+        accent-color: var(--highlight-color);
       }
 
       @media (max-width: 480px) {

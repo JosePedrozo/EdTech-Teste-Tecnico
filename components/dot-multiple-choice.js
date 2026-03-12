@@ -26,13 +26,13 @@ class DotMultipleChoice extends HTMLElement {
         }
 
         .card {
-          background: #ffffff;
+          background: var(--white-color);
           border: 1px solid #E5E7EB;
           border-radius: 16px;
           padding: 24px;
           max-width: 930px;
           margin-inline: auto;
-          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 2px 0px #0000000D;
           box-sizing: border-box;
         }
 
@@ -57,19 +57,19 @@ class DotMultipleChoice extends HTMLElement {
         .icon-circle svg {
           width: 20px;
           height: 20px;
-          fill: #76B900;
+          fill: var(--highlight-color);
         }
 
         .title-group h2 {
           margin: 0;
           font-size: 1.1rem;
-          color: #111827;
+          color: var(--quaternary-color);
         }
 
         .title-group p {
           margin: 8px 0 0;
           font-size: 0.95rem;
-          color: #4B5563;
+          color: var(--secundary-color);
           line-height: 1.5;
         }
 
@@ -90,16 +90,17 @@ class DotMultipleChoice extends HTMLElement {
           cursor: pointer;
           transition: all 0.2s ease;
           position: relative;
+          color: var(--light-blue-color);
         }
 
         .option-item:hover:not(.disabled) {
-          border-color: #76B900;
+          border-color: var(--quaternary-color);
         }
 
         .option-item.selected {
-          background: #000000;
-          border-color: #000000;
-          color: #ffffff;
+          background: var(--black-color);
+          border-color: var(--black-color);
+          color: var(--white-color);
         }
 
         .checkbox {
@@ -111,17 +112,17 @@ class DotMultipleChoice extends HTMLElement {
           align-items: center;
           justify-content: center;
           flex-shrink: 0;
-          background: white;
+          background: var(--white-color);
         }
 
         .option-item.selected .checkbox {
-          background: #ffffff;
-          border-color: #ffffff;
+          background: var(--white-color);
+          border-color: var(--white-color);
         }
 
         .option-item.selected .checkbox::after {
           content: '✔';
-          color: #000000;
+          color: var(--black-color);
           font-size: 14px;
         }
 
@@ -151,13 +152,13 @@ class DotMultipleChoice extends HTMLElement {
         }
 
         .btn-responder.active {
-          background: #76B900;
-          color: white;
+          background: var(--highlight-color);
+          color: var(--white-color);
         }
 
         .btn-alterar {
-          background: #000000;
-          color: white;
+          background: var(--black-color);
+          color: var(--white-color);
         }
 
         button:disabled {
@@ -175,13 +176,13 @@ class DotMultipleChoice extends HTMLElement {
         }
 
         .feedback.correct {
-          background: #ECF7ED;
-          color: #065F46;
+          background: var(--feedback-correct-background);
+          color: var(--light-green-400);
         }
 
         .feedback.incorrect {
-          background: #FFF9C4;
-          color: #856404;
+          background: var(--feedback-incorrect-background);
+          color: var(--dark-yellow-900);
         }
 
         @keyframes fadeIn {

@@ -42,4 +42,7 @@ Este projeto utiliza módulos nativos do JavaScript (ESM), por isso precisa de u
 │   └── imgs/            # Ativos de imagem e icones
 ├── index.html           # Página principal
 ├── main.js              # Ponto de entrada que registra todos os componentes
-└── README.md            # Documentação
+└── README.md
+
+<img width="2560" height="10518" alt="printscreen_telainteira" src="https://github.com/user-attachments/assets/86e6dfe7-96a1-490b-820d-c12684bea878" />
+  # Documentação

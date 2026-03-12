@@ -1,0 +1,12 @@
+import './components/dot-header.js';
+import './components/dot-footer.js';
+import './components/dot-title-text.js';
+import './components/dot-video-player.js';
+import './components/dot-image-panel.js';
+import './components/dot-image-slider.js';
+import './components/dot-emphasis.js';
+import './components/dot-card-selector.js';
+import './components/dot-audio-player.js';
+import './components/dot-essay-question.js';
+import './components/dot-multiple-choice.js';
+import './components/dot-faq.js';

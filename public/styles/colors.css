@@ -1,0 +1,20 @@
+:root{
+    /* background */
+    --background-light: #F7F8F5;
+    --background-dark: #0C0A08;
+
+    /* colors */
+    --primary-color: #171D0C;
+    --secundary-color: #5C6B48;
+
+    --terciary-color: #D1D5DB;
+    --quaternary-color: #0F172A;
+
+    --white-color: #FFFFFF;
+    --grey-color:   #9CA3AF;
+
+    --highlight-color: #76B900;
+    
+    --footer-color: #64748B;
+
+}

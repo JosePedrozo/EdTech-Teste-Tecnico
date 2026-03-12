@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teste técnico frontend">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+    <link rel="stylesheet" href="public/styles/reset.css">
+    <link rel="stylesheet" href="public/styles/colors.css">
+    <title>Teste Técnico</title>
+</head>
+
+<body>
+    <dot-header></dot-header>
+
+    <main>
+
+        <dot-title-text title="Lorem ipsum dolor, sit amet consectetur adipisicing elit"
+            text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+            align="start">
+        </dot-title-text>
+
+        <dot-video-player video="https://www.youtube.com/watch?v=XsnZgaj7lLw" title="Apresentação do player de video">
+        </dot-video-player>
+
+        <dot-image-panel image="https://picsum.photos/430/250" text_top="Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Impedit voluptatum
+                        voluptatibus aperiam cum quasi repudiandae
+                        nostrum, sed amet quam maiores eum
+                        consectetur ipsa dolores quis ducimus, iusto
+                        dicta consequuntur facere!" text_bottom="Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Molestiae, quia! Cumque
+                        ipsum harum fuga perferendis autem
+                        incidunt dolorem voluptatum illo, quis
+                        explicabo. Possimus repudiandae dolore
+                        architecto, hic dolorum ab."></dot-image-panel>
+
+        <dot-image-slider images="
+            /public/imgs/slide1.jpg,
+            /public/imgs/slide2.jpg,
+            /public/imgs/slide3.jpg
+            ">
+        </dot-image-slider>
+
+        <dot-emphasis text="
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore nihil corporis
+            suscipit soluta dolorem id consectetur, tenetur nesciunt ducimus maiores sequi
+            veritatis nostrum, esse eaque delectus ea laboriosam repellendus! Ipsum nobis,
+            mollitia facilis praesentium cupiditate quidem eaque itaque nulla ab obcaecati
+            sapiente sequi porro, totam, non molestias excepturi explicabo adipisci deleniti
+            architecto animi!
+            ">
+        </dot-emphasis>
+
+        <dot-card-selector texts="
+            Lorem ipsum dolor sit amet. consectetur adipisicing elit. Saepe excepturi, dolores perspiciatis commodi eum dolore nesciunt tempore similique at quas.
+            |
+            Lorem ipsum dolor sit amet. consectetur adipisicing elit. Saepe excepturi, dolores perspiciatis commodi eum dolore nesciunt tempore similique at quas.
+            |
+            Lorem ipsum dolor sit amet. consectetur adipisicing elit. Saepe excepturi, dolores perspiciatis commodi eum dolore nesciunt tempore similique at quas.
+            ">
+        </dot-card-selector>
+
+        <dot-title-text title="Lorem ipsum dolor, sit amet consectetur adipisicing elit"
+            text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+            align="start">
+        </dot-title-text>
+
+        <dot-audio-player src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+        </dot-audio-player>
+
+        <dot-essay-question id="question-tech-01" title="Atividade discursiva"
+            question="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+            feedback="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur commodi odio maiores accusamus aspernatur consequatur
+        ipsam dignissimos magnam hic, velit est perferendis explicabo aperiam ratione veritatis labore.">
+        </dot-essay-question>
+
+        <dot-multiple-choice id="pergunta-01" title="Atividade Objetiva"
+            question="It is a long established fact that a reader will be distracted by the readable content of a page."
+            options="
+        A) Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        |
+        B) Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        |
+        C) Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        |
+        D) Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        " 
+        correct="1"
+        feedback-correct="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur commodi odio maiores accusamus aspernatur consequatur
+            ipsam dignissimos magnam hic, velit est perferendis explicabo aperiam ratione veritatis labore." 
+        feedback-incorrect="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur commodi odio maiores accusamus aspernatur consequatur
+            ipsam dignissimos magnam hic, velit est perferendis explicabo aperiam ratione veritatis labore.">
+        </dot-multiple-choice>
+
+        <dot-faq title="Perguntas frequentes" 
+            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            items="
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            | 
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
+            'Content here, content here', making it look like readable English.
+            ||
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            | 
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
+            'Content here, content here', making it look like readable English.
+            ||
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            | 
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
+            'Content here, content here', making it look like readable English.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            ||
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            | 
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
+            'Content here, content here', making it look like readable English.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            ">
+        </dot-faq>
+
+    </main>
+
+    <dot-footer></dot-footer>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

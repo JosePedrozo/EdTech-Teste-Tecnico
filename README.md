@@ -44,8 +44,8 @@ Este projeto utiliza módulos nativos do JavaScript (ESM), por isso precisa de u
 ├── main.js              # Ponto de entrada que registra todos os componentes
 └── README.md            # Documentação
 ```
-## RESULTADO:
 
+## Resultado:
 
 <img width="500" height="1890" alt="printscreen_telainteira" src="https://github.com/user-attachments/assets/cbeace2c-2803-4538-9b29-6dc15d9b7a7b" />
 
